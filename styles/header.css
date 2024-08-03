@@ -1,8 +1,10 @@
 .header__style{
     display: flex;
     justify-content: space-between;
-    margin: 0 24px 0 53px;
-    padding-top: 5px;
+}
+
+.header__style__logoPt{
+    width: 100px;
 }
 
 .header__style__menu{
@@ -18,21 +20,35 @@
     align-items: center;
 }
 
+.header__style__botao__itens{
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.header__style__botao__itens:hover{
+    transform: scale(1.1);
+    transition: 150ms linear;
+}
+
 .header__style__menu__itens{
     font-family: var(--fonte-principal);
     text-decoration: none;
     font-weight: 800;
     color: var(--cor-vermelho);
-    font-size: 20px;
+    font-size: 1.25rem;
+}
+
+.header__style__menu__itens:hover{
+    color: black;
+    transform: scale(1.1);
 }
 
 .header__style__botao__itens{
     border-radius: 50px;
-    padding: 20px;
+    padding: 15px 10px 15px 10px;
     font-family: var(--fonte-principal);
     text-decoration: none;
     font-weight: 800;
     color: var(--cor-fonte-branca);
-    font-size: 22px;
+    font-size: 1.25rem;
     background-color: var(--cor-vermelho);
 }
