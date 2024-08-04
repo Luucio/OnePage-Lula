@@ -2,64 +2,61 @@
 @import url(./styles/header.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+*{
+    font-family: var(--fonte-principal)                                                                                                                                                                                             ;
+}
+
 :root{
+    --cor-preto: #000000;
     --cor_principal: #D52323;
     --fonte-principal: Poppins;
     --cor-fonte-branca: #FFFFFF;
     --cor-vermelho: #FF0000;
+    --fonte-principal: Poppins, sans-serif;
 }
 
-.section1{
-    height: 100vh;
-    background-color: var(--cor_principal);
-    font-family: var(--fonte-principal);
-    background-image: url(./img/foto_backgroud.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.section1{
+.mainConteiner__section1{
     display: flex;
     align-items: center;
-    text-align: center;
+    flex-direction: column;
+    background-color: var(--cor-vermelho);
+    height: 100dvh;
 }
 
-.section1__esquerda{
+.mainConteiner__section1__imagemFundo{
+    margin-top: 20px;
+}
+
+.mainConteiner__section1__descricao{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 35px;
-    margin-left: 150px;
+    gap: 25px;
+
 }
 
-.section1__esquerda__titulo{
-    font-size: 30px;
-    font-weight:800;
-    color: #553939;
-}
-
-.section1__esquerda__descricao{
-    width: 505px;
-    font-size: 20px;
-    font-weight:400;
+.mainConteiner__section1__descricao__titulo{
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 15px;
     color: var(--cor-fonte-branca);
+    text-align: center;
 }
 
-.section1__esquerda__botao{
-    border-radius: 50px;
-    width: 200px;
-    padding: 15px 15px;
-    text-decoration: none;
+.mainConteiner__section1__descricao__paragrafo{
+    text-align: center;
+    color: #332B2B;
+    text-align: justify;
+    margin: 10px 10px;
+    font-size: 16px;
+}
+
+.mainConteiner__section1__descricao__botao{
     background-color: var(--cor-fonte-branca);
-    color: var(--cor-vermelho);
-    font-weight: 600;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 4px 8px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-    transition: 500ms linear;
+    text-decoration: none;
+    color: var(--cor-preto);
+    padding: 20px 60px;
+    border-radius: 50px;
+    font-size: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
-
-.section1__esquerda__botao:hover{
-    transform: scale(1.1);
-}
-
-

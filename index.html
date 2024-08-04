@@ -8,31 +8,33 @@
     <title>Luiz Inacio</title>
 </head>
 <body>
-    <header>
-        <div class="header__style">
-            <img class="header__style__logoPt" src="./img/pt 1.svg" alt="">
-            <nav class="header__style__menu">
-                <a class="header__style__menu__itens" href="">Home</a>
-                <a class="header__style__menu__itens" href="">Sobre Mim</a>
-                <a class="header__style__menu__itens" href="">Projetos & Leis</a>
-                <a class="header__style__menu__itens" href="">Principais Trabalhos</a>
-            </nav>
-            <div class="header__style__botao">
-                <a class="header__style__botao__itens" href="">Porque votar em mim?</a>
-            </div>
-        </div>
+    <header class="headerConteiner">
+        <input class="headerConteiner__checkbox" type="checkbox" id="menu">
+        <label for="menu"> 
+            <img class="cabecalho__logoMenu" src="./img/Menu.svg" alt="">
+        </label>
+        <nav class="headerConteiner__menu">
+            <a class="headerConteiner__menu__itens" href="">Home</a>
+            <a class="headerConteiner__menu__itens" href="">Sobre Mim</a>
+            <a class="headerConteiner__menu__itens" href="">Projetos & Leis</a>
+            <a class="headerConteiner__menu__itens" href="">Principais Trabalhos</a>
+            <a class="headerConteiner__menu__ladding" href="">Porque votar em mim?</a>
+        </nav>
+        <img class="cabecalho__logoPt" src="./img/pt 1.svg" alt="">
     </header>
-    <main>
-        <section class="section1">
-            <div class="section1__esquerda">
-                <p class="section1__esquerda__titulo">O presidente que o Brasil precisa</p>
-                <p class="section1__esquerda__descricao">Liderança, Resiliência e Transformação. Sou Luiz Inácio Lula da Silva, e minha jornada é a prova de que, com coragem e determinação, podemos mudar o destino de uma nação. De uma infância humilde ao comando do Brasil, dediquei minha vida a lutar por justiça social e oportunidades iguais para todos. Acredite na força de quem já provou que é possível superar desafios e alcançar grandes conquistas. Junte-se a mim na construção de um Brasil mais justo e próspero para todos os brasileiros. Conheça a minha história e vamos, juntos, continuar transformando nosso país!</p>
-                <a  class="section1__esquerda__botao" href="">Saiba Mais!</a>
+    <main class="mainConteiner">
+        <section class="mainConteiner__section1">
+            <div class="mainConteiner__section1__imagemFundo">
+                <img src="./img/lula_solo_fundo.png" alt="Imagem de fundo - Lula com seus apoiadores">
+            </div>
+            <div class="mainConteiner__section1__descricao">
+                <h1 class="mainConteiner__section1__descricao__titulo">O Presidente Que Brasil Precisa!</h1>
+                    <p class="mainConteiner__section1__descricao__paragrafo">Liderança, Resiliência e Transformação. Sou <b>Luiz Inácio Lula da Silva</b>, e minha jornada é a prova de que, com coragem e determinação, podemos mudar o destino de uma nação. De uma infância humilde ao comando do Brasil, dediquei minha vida a lutar por justiça social e oportunidades iguais para todos. Acredite na força de quem já provou que é possível superar desafios e alcançar grandes conquistas. Junte-se a mim na construção de um Brasil mais justo e próspero para todos os brasileiros. Conheça a minha história e vamos, juntos, continuar transformando nosso país!</p>
+                    <a class="mainConteiner__section1__descricao__botao" href="">Saiba Mais!</a>
             </div>
         </section>
     </main>
     <footer>
-
     </footer>
 </body>
 </html>
