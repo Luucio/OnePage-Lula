@@ -1,9 +1,11 @@
 .headerConteiner{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 70px;
     position: relative;
     background-color: var(--cor-fonte-branca);
+    padding: 10px 10px;
+    gap: 50px;
 }
 
 .headerConteiner__checkbox{
@@ -46,6 +48,6 @@
 
 }
 
-.cabecalho__logoMenu{
-    margin-left: 50px;
+.headerConteiner__mensagens{
+    width: 30px;
 }
