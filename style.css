@@ -18,6 +18,7 @@
 
 body{
     background-color: var(--cor_principal);
+    height: 100dvh;
 }
 .main__section1{
     display: flex;
